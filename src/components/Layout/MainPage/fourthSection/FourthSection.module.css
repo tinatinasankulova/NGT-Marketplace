@@ -1,0 +1,51 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1050px;
+  height: 662px;
+  margin: 60px 115px 0px 115px;
+  gap: 30px;
+  margin-bottom: 160px;
+}
+
+.browse {
+  margin: 160px 0px 0px 115px;
+  font-family: 'Work Sans';
+  font-weight: 600;
+  font-size: 38px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+#backgroundImg{
+ width: 240px;
+ height: 240px;
+ filter: blur(7.5px);
+}
+
+.card {
+  width: 240px;
+  height: 316px;
+  background: #3B3B3B; 
+}
+
+#icon {
+  position: relative;
+  left: 78px;
+  top: -176px;
+  width: 100px;
+  height: 100px;
+}
+
+.itemName {
+  position: relative;
+  top: -86px;
+  left: 26px;
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-transform: capitalize;
+color: #FFFFFF;
+}

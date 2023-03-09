@@ -1,0 +1,100 @@
+.creators {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.button {
+  width: 247px;
+  height: 60px;
+  margin-top: 111px;
+  margin-right: 115px;
+  background-color: rgba(43, 43, 43, 1);
+  border: 3px solid rgba(162, 89, 255, 1);
+  background-image: url('../../../../assets/icons/purpleRocket.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 23% 50%;
+  padding: 0px 30px 0px 78px;
+}
+
+.topCreators {
+  width: 1050px;
+  height: 774px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0px 115px 0px 115px;
+}
+ 
+.avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.infoCreators {
+  width: 240px;
+  height: 238px;
+  background: #3B3B3B;
+  padding-bottom: 25px;
+}
+
+.infoCreators span:first-child {
+  display: inline-block;
+  margin: 20px 0px 0px 20px;
+  font-family: 'Space Mono';
+  font-weight: 400;
+  font-size: 16px;
+  color: #858584;
+  text-align: center;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  background: #2B2B2B;
+  border-radius: 20px;
+}
+
+
+.infoCreators img {
+  margin: 0px 55px 0px 65px;
+  position: relative;
+  top: -25px;
+}
+
+.infoCreators p {
+font-family: 'Work Sans';
+line-height: 140%;
+font-weight: 600;
+font-size: 22px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.totalSales {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #858584;
+}
+
+.amount {
+  display: inline;
+  margin-right: 10px;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+
+}

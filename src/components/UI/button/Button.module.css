@@ -6,3 +6,15 @@
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
 }
+
+.button:hover {
+  box-shadow: 0 2px 8px rgba(84, 79, 79, 0.2),2px 10px 8px rgba(84, 79, 79, 0.2);
+  border-radius: 20px;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  margin: 0 115px;
+  gap: 30px;
+  padding-bottom: 160px;
+}
+
+.mainImg {
+  width: 330px;
+height: 330px;
+margin-bottom: 15px;
+}
+
+.mainImg:hover {
+  -webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+#middleImg{
+  margin: 0 15px;
+}
+
+.avatars img{
+  width: 100px;
+height: 100px;
+}
+
+.avatars img:hover {
+  -webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}

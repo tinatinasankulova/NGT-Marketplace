@@ -1,0 +1,59 @@
+.discover {
+  margin: 0 115px 0px 115px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+
+}
+
+.card img {
+  width: 330px;
+  height: 296px;
+} 
+
+.card {
+  background-color: #3B3B3B;
+  width: 330px;
+  height: 469px;
+}
+.collectName {
+  margin: 0px 30px 27px 30px;
+  letter-spacing: 1px;
+}
+
+.price {
+  width: 270px;
+  height: 43px;
+  margin: 0px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prc {
+  width: 330px;
+}
+
+.prc span {
+  display: block;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+color: #858584;
+margin-bottom: 10px;
+} 
+
+.prc2 {
+  text-align: right;
+}
+
+#amountPrise {
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+

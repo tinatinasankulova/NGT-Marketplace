@@ -1,0 +1,53 @@
+.textTitle {
+  position: relative;
+  top: -130px;
+  left: 0px;
+}
+
+.wrapper {
+  margin: 0px 115px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -244px;  
+  left: 0px;
+}
+.card {
+  width: 330px;
+  height: 439px;
+  background: #3B3B3B;
+}
+
+.card img {
+  width: 208px;
+  height: 208px;
+  position: relative;
+  top: 20px;
+  left: 67px;
+}
+
+.card h2 {
+  margin: 40px 0px 10px 0px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+ .card p {
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+margin: 0px 30px 30px 30px;
+ }
+
+ 
+
+

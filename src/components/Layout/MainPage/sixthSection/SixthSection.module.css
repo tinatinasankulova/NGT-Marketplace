@@ -1,0 +1,118 @@
+.mainMushroom {
+  width: 1280px;
+  height: 660px;
+  background-image: url('../../../../assets/imgs/mushroom-main.png');
+  background-repeat: no-repeat;
+  background-size: 1280px 660px;
+  box-shadow: 18px -307px 324px -46px #a259ff inset;
+}
+
+.button {
+  width: 151px;
+height: 44px;
+padding: 11px 20px 11px 56px;
+background: #3B3B3B;
+background-image: url('../../../../assets/icons/shroomie.png');
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-position: 14% 50%;
+margin: 30px 115px;
+}
+
+.mshrm_time {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 115px;
+}
+.magic {
+width: 375px;
+}
+.magic h1 {
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 39px;
+line-height: 120%;
+text-transform: capitalize;
+color: #FFFFFF;
+letter-spacing: 2px;
+}
+.btn {
+  width: 198px;
+height: 60px;
+align-items: center;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #2B2B2B;
+background-image: url('../../../../assets/icons/eye.png');
+background-repeat: no-repeat;
+background-size: 20px 20px;
+padding: 19px 50px 19px 82px;
+background-position: 28% 50%;
+margin-top: 50px;
+}
+
+.action {
+  width: 300px;
+  height: 158px;
+background: rgba(59, 59, 59, 0.5);
+backdrop-filter: blur(5px);
+}
+.action h4 {
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 110%;
+margin: 30px 40px 20px 40px;
+color: #FFFFFF;
+}
+
+.mgc_mushroom {
+  position: relative;
+  top: -345px;
+  left: 0px;
+}
+
+.hour{
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: #FFFFFF;
+display: flex;
+margin: 0px 40px 5px 40px;
+letter-spacing: 4px;
+}
+
+.descripTime{
+display: inline-block;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+margin: 0px 0px 0px 40px;
+gap: 10px;
+}
+
+.descripTime span {
+  display: inline-block;
+  margin-right: 20px;
+  justify-content: space-between;
+
+}
+
+#minutes {
+ margin-right: 33px;
+}
+
+#hours {
+  margin-right: 45px;
+}

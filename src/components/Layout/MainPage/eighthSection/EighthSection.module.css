@@ -1,0 +1,72 @@
+.card {
+  width: 1050px;
+  height: 430px;
+  background-color: #3B3B3B;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 115px;
+  position: relative;
+  top: -100px;
+  left: 0px;
+  padding: 60px 60px;
+}
+
+.spaceMan {
+  display: inline-block;
+  width: 425px;
+  height: 310px;
+}
+
+.digest {
+  width: 425px;
+}
+
+.digest h1 {
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+.digest p {
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+.subscribe input{
+  width: 425px;
+  height: 60px;
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #2B2B2B;
+padding: 19px 223px 19px 20px;
+border-radius: 20px;
+}
+
+.button {
+  width: 211px;
+height: 60px;
+background: #A259FF;
+padding: 19px 50px 19px 82px;
+color: #FFFFFF;
+position: relative;
+top: -60px;
+left: 214px;
+background-image: url('../../../../assets/icons/message.png');
+background-repeat: no-repeat;
+background-size: 20px 20px;
+background-position: 25% 50%;
+
+}
+
